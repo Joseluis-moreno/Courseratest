@@ -1,0 +1,64 @@
+header{background-color: white;
+  width: 300px;
+  border: 1px solid grey;
+  padding: 50px;
+  margin: px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:700;color:grey;  font-size: 30px;} 
+p{text-decoration:underline;}
+
+p2{font-family: 'Work Sans', sans-serif;}
+p3{font-family: 'Times', sans-serif;}
+button {
+  margin: 20px;}
+.custom-btn {
+  width: 150px;
+  height: 40px;
+  color: #000;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-family: 'Courier',sans-serif;
+  font-weight: 400;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  border: none;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* 16 */
+.btn-16 {
+  border: none;
+  color: #000;
+}
+.btn-16:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-16:hover {
+  color: #000;
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-16:active {
+  top: 2px;
+}
