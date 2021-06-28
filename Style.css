@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    font-size: 12px;
+    color: rgb(8, 8, 8);
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #4c4545;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'roboto', sans-serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  /* END HEADER */
+  
+  /* HOME PAGE */
+  .container .jumbotron {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
+  
+  /* END HOME PAGE */
+  
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url('../images/jumbotron_1200.jpg') no-repeat;
+      height: 675px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+      background: url('../images/restaurant-logo_medium.png') no-repeat;
+      width: 100px;
+      height: 100px;
+      margin: 5px 5px 5px 0;
+    }
+    /* End Header */
+  
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/jumbotron_992.jpg') no-repeat;
+      height: 558px;
+    }
+    /* End Home Page */
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/jumbotron_768.jpg') no-repeat;
+      height: 432px;
+    }
+    /* End Home Page */
+  
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+      height: 20px;
+    }
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+    /* End Header */
+  
+    /* Home Page */
+    .container .jumbotron {
+      margin-top: 30px;
+      padding: 0;
+    }
+  
+  }
+  
+.box {
+    margin: 1%;
+    padding: 7px;
+    position: relative;
+    background-color: rgb(196, 193, 190);
+    color: rgb(5, 5, 5);
+    border: 1px solid black;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    position: center;
+    top: 0%;
+    right: 0%;
+    font-size: 1.75em;
+    text-align: center;
+  }
+
+p {
+    padding: 10px;
+    font-size: 1.25em;
+    margin-top: 35px;
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 31%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 36%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12{
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }    
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 20%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 48%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 98%;
+    }
+}
+

@@ -1,109 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-</head>
-<title> Our Menu</title>
-<style>
-* {
-  box-sizing: border-box;
-}
-#p1 {
-  background-color: rgb(202, 166, 172);
-  padding: 7px;
-  border: 1px solid black;
-  width: 100px;
-  height: 30px;
-  margin-top: 0px;
-  text-align: center;
-  overflow: auto;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  font-weight: 900;
-}
-#p2 {
-  background-color: rgb(192, 58, 58) ;
-  padding: 7px;
-  border: 1px solid black;
-  width: 100px;
-  height: 30px;
-  margin-top: 0px;
-  text-align: center;
-  overflow: auto;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  font-weight: 900;
-}
-#p3 {
-  background-color: rgb(226, 228, 111);
-  padding: 7px;
-  border: 1px solid black;
-  width: 100px;
-  height: 30px;
-  margin-top: 0px;
-  text-align: center;
-  overflow: auto;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  font-weight: 900;
-}
-#bg, #bg2, #bg3 {
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 12px;
-    text-align: right;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-
-}  
-body {
-    margin: 10px;
-    padding: 10px;
-}
-h1 {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  font-weight: 900;
-}
-
-.row {
-  width: 100%;
-}
-@media (min-width: 1200px) {
-}
-  .col-lg-1, .col-lg-2, .col-lg-3 {
-    background-color: gray;
-    border: 1px solid black;
-    border-spacing: 10 px;
-    padding: auto;
-    margin: 15px;
-    float: left;
-    text-align: left;
-    
-  }
-  .col-lg-1 {
-    width: 30%;
-  }
-  .col-lg-2 {
-    width: 30%;
-  }
-  .col-lg-3 {
-    width: 30%;
-  }
-
-</style>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="file:///Users/Pepe/Desktop/Module%203%20-%20Solution/css/bootstrap.min.css">
+    <link rel="stylesheet" href="file:///Users/Pepe/Desktop/Module%203%20-%20Solution/css/Style.css">
+    <link href='file:///Users/Pepe/Desktop/Module%203%20-%20Solution/css/Style.css' rel='stylesheet' type='text/css'>
+    <link href='file:///Users/Pepe/Desktop/Module%203%20-%20Solution/css/Style.css' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-<h1>Our Menu</h1>
-<div class="row">
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">          </a>
 
-    <div class="row">
-        <div class="col-lg-1 col-md-3"><p id="p1" >Chiken</p><span id="bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae perferendis obcaecati maxime, fugit eos nihil deserunt laboriosam. Provident dolorem architecto et tenetur. Nam laborum autem, magnam repudiandae similique nulla?</span>
-    </div>
-        <div class="col-lg-1 col-md-3"><p id="p2" >Beef</p><span id="bg2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae perferendis obcaecati maxime, fugit eos nihil deserunt laboriosam. Provident dolorem architecto et tenetur. Nam laborum autem, magnam repudiandae similique nulla?</span>
-    </div>
-        <div class="col-lg-1 col-md-3"><p id="p3" >Sushi</p><span id="bg3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae perferendis obcaecati maxime, fugit eos nihil deserunt laboriosam. Provident dolorem architecto et tenetur. Nam laborum autem, magnam repudiandae similique nulla?</span>
-    </div>
-    
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  </div>
+    <div id="home-tiles" class="row">
+            <h1>Our Menu</h1> 
+            <div>
+              <div class="col-lg-4 col-md-6 box">
+                <h2>Chicken</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae perferendis obcaecati maxime, fugit eos nihil deserunt laboriosam. Provident dolorem architecto et tenetur. Nam laborum autem, magnam repudiandae similique nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos voluptates aliquid eius, possimus laborum mollitia quae voluptatibus officiis. Non recusandae sit veritatis rerum suscipit, eum corrupti! Velit, cumque nemo!</p>
+                </div>
+              
+              <div class="col-lg-4 col-md-6 box">
+                  <h2> Beef</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae perferendis obcaecati maxime, fugit eos nihil deserunt laboriosam. Provident dolorem architecto et tenetur. Nam laborum autem, magnam repudiandae similique nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magni quaerat voluptatem est esse placeat, amet quae obcaecati id molestiae, voluptatibus ut ipsa, eveniet fuga totam itaque sequi deserunt rerum.</p>
+                  </div>
+              <div class="col-lg-4 col-md-12 box">
+                  <h2>Sushi</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae perferendis obcaecati maxime, fugit eos nihil deserunt laboriosam. Provident dolorem architecto et tenetur. Nam laborum autem, magnam repudiandae similique nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam vel fugit, ex numquam, eos sed cumque pariatur animi reiciendis expedita nesciunt dolorem eveniet laborum minima esse vero unde rem alias!</p>
+                  </div>
+                </div>
+          </body>
+          </html>
+          </div>
+        </a>
+      </div>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
